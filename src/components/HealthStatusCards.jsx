@@ -4,10 +4,10 @@ const HealthStatusCards = ({ data }) => {
   return (
     <div className="flex flex-col rounded-lg bg-[#f6faff] p-2 shadow-md">
       <div className="w-full flex items-center justify-start mb-2">
-        <img src={data.image} alt="organ-image" width={40} />
+        <img src={data.image} alt="organ-image" width={30} />
         <p className="font-semibold ml-2">{data.organ}</p>
       </div>
-      <div className="text-gray-400 text-sm font-semibold flex items-center justify-center mb-2">
+      <div className="text-gray-400 text-xs font-semibold flex items-center justify-start mb-2">
         Date: {data.Date}
       </div>
       <div className="w-full bg-gray-200 rounded-full h-1.5">
