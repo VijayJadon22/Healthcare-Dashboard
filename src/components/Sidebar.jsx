@@ -11,7 +11,7 @@ import { IoSettings } from "react-icons/io5";
 const Sidebar = () => {
   return (
     <div className="hidden sm:flex w-2/5 md:w-1/5  text-gray-400 p-6  flex-col justify-start ">
-      <div className=" flex flex-col justify-between h-1/3  pl-4">
+      <div className=" flex flex-col justify-between h-55  pl-4">
         <h1 className="text-sm mb-2">General</h1>
         <div className="flex items-center justify-start text-blue-500">
           <RxDashboard />
